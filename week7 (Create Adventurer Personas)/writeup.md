@@ -7,11 +7,11 @@ The aim of my adventurer profiler was to capture user engagement behavior and be
 The resulting clusters had a silhouette score of 0.2180, which is modest but indictive that the clusters did in fact seperate datapoints into distinctive categories. The silhouette score takes into account both cohesion and seperation, and though not the strongest score, we do see non-trivial separation and it supports that the clustering is not random noise. In addition to this metric, the interpretability and statistical-driven narrative behind the clustered adventurers passes as a sanity check. They formed distinct profiles on engagement volume and follow-through, as well as subscription patterns, and I was able to identify representative adventurers per cluster, who were closest to centroid, whom matched each cluster’s profile. A visualization of the principal component analysis shows a rather distinct clustering around the first two components as well.
 
 <p align="center">
-<img height="325" alt="elbow_plot" src="https://github.com/user-attachments/assets/b058cf22-0c72-4916-a087-ec9473028d31" />
+<img src="figures/elbow_plot.png" height="350">
 </p>
 
 <p align="center">
-<img height="325" alt="pca_scatter" src="https://github.com/user-attachments/assets/e3453fc6-b941-418a-bc33-ba9d2a897f8f" />
+<img src="figures/pca_scatter.png" height="350">
 </p>
 
 ## The Adventurer Personas
@@ -80,7 +80,7 @@ Our algorithm, of course, produced five clusterings of the adventurers. With our
    - Age 85.5
 
 <p align="center">
-<img height="425" alt="Item completion rates vs total engagement time (scatter)" src="https://github.com/user-attachments/assets/4a925268-2bb3-40fb-977d-3d18eca04744" />
+<img src="figures/Item completion rates vs total engagement time (scatter).png" height="350">
 </p>
 <p align="center">
   <em>Here the personas map as follows:<br>
